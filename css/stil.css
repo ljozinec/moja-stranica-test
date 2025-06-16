@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'LorenaJozinec_font';
+    src: url('../fonts/LorenaJozinec_font.ttf') format('truetype');
+}
+
+
+body.pocetna {
+    background-image: url('../slike/pozadina.jpg'); /* Putanja do tvoje slike */
+    background-repeat: no-repeat;
+    background-size: cover;  /* Slika pokriva cijeli ekran */
+    background-position: center center;
+    background-attachment: fixed; /* Opcionalno: slika stoji fiksno pri scrollu */
+    color: #333; /* Tamniji tekst radi čitljivosti */
+}
+
+body {
+    font-family: "Lora", Times, serif;
+	font-size: 24px;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    background-color: #93b2b8;
+}
+
+.naslov {
+    font-family: 'LorenaJozinec_font', cursive;
+    font-size: 3em;
+    text-align: center;
+    margin: 20px 0;
+	color: white; 
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.navigacija {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    margin: 0;
+    border-bottom: 2px solid #ccc;
+}
+
+.navigacija li {
+    margin: 0 15px;
+}
+
+.navigacija a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+img, video {
+    margin: 10px;
+    border-radius: 8px;
+}
+figure {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px; /* kontrolirana širina figure */
+    width: 90%;       /* prilagodba za manje ekrane */
+}
+
+figure video {
+    width: 100%;      /* zauzmi cijelu širinu figure */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 8px;
+}
+
+
